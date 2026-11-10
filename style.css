@@ -1,0 +1,157 @@
+body {
+   margin:0;
+   padding: 40px;
+   min-height: 100vh;
+   font-family: Arial, sans-serif;
+   background-color:linear-gradient(120deg, #f21f6d, #00dce9); 
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   gap:50px;
+   flex-wrap: wrap;
+   
+} 
+
+.container { 
+    width:70%;
+    max-width: 800px; 
+    margin: 10px auto; 
+    padding: 30px; 
+    background-color:#fbfbfb;
+    border-radius: 15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1)
+} 
+
+.perfil { 
+    width: 515px;
+    max-width: 100%;
+    padding: 35px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+} 
+
+.curriculo { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+} 
+
+.curriculo h1 { 
+    margin: 0 0 10px; 
+    color: rgb(80, 19, 19); 
+} 
+
+.curriculo h2 { 
+    margin: 0 0 10px; 
+    color: #ef3281; 
+    font-size: 18px; 
+} 
+
+.curriculo p { 
+    margin: 5px 0;
+ } 
+ 
+ .foto {
+     width: 150px; 
+     height: 150px; 
+     border-radius: 50%; 
+     object-fit: cover; 
+ } 
+ 
+ button { 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    color: #db1313; 
+
+}
+
+.formulario{
+    width:450px;
+    max-width: 100%;
+    padding:30px;
+    background-color:white;
+    border-radius:17px;
+    box-shadow:0,5px 15px rgba(0,0,0,0.15);
+
+}
+
+.formulario h2{
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:22px;
+
+}
+
+.formulario label{
+    display:block;
+    margin-top:12px;
+    margin-bottom:6px;
+
+}
+
+.formulario input, .formulario textarea{
+    display:block;
+    width:100%;
+    padding:11px;
+    border:1px solid #cccccc;
+    border-radius:6px;
+    font-family:Arial,sans-serif;
+    font-size:15px;
+
+}
+
+.formulario textarea{
+    min-height:90px;
+    resize:vertical;
+    
+}
+
+.formulario button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+.formulario input:focus,
+.formulario textarea:focus{
+    outline: 2px solid #087bfa;
+    outline-offset: 1px;
+
+}
+
+[hidden] {
+    display: none !important;
+    
+}
+@media (max-widht:700px){
+    body{
+        padding: 25px 16px;
+        gap: 25px;
+        align-items: flex-start;
+    }
+    .perfil
+    .formulario{
+        width:100%;
+        max-width: 450px;
+        padding: 25px;
+    }
+    .foto{
+        width:140px;
+        height:140px;
+    }
+    .perfil h1{
+        font-size: 28px;
+    }
+    .perfil h3{
+        font-size: 19px;
+    }
+    .perfil p{
+        font-size: 16px;
+    }
+
+}

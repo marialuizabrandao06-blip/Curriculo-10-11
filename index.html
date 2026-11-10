@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+     <div class="perfil">
+         <img src="img.jpg"alt="FOTO" class="foto" height="200"> 
+         <div class="curriculo">
+             <h1 id="perfilNome">Maria luiza</h1>
+             <h2 id="perfilCurso">Estudante de Desenvolvimento de Sistemas</h2> 
+             <p>🕻  Telefone: <span id="perfilTelefone">(62) 990000000</span></p> 
+             <p>✉︎  E-mail: <span id="perfilEmail">marialuizabrandao06@gmail.com</span></p> 
+             <p>𝄜  Data de nascimento: 21/07/2009</p> 
+             <p>𖡡  Cidade:<span id="perfilCidade"> Anápolis-GO</span></p> 
+             <button id="editar">Editar</button>  
+            </div> 
+        </div> 
+            <h3>➝ OBJETIVO</h3> 
+            <p>. Busco uma oportunidade para desenvolver minhas habilidades.</p> 
+            <h3>➝ FORMAÇÃO ACADÊMICA</h3> 
+            <p>. Ensino Médio (cursando) - 2º ano</p> 
+            <p>. Curso Técnico em Desenvolvimento de Sistemas - SENAI</p> 
+            <h3>➝ HABILIDADES</h3> 
+            <p>. Conhecimento básico em Informática</p> 
+            <p>. Noções de Programação e Desenvolvimento de Sistemas</p> 
+            <p>. Organização e Responsabilidade</p> 
+            <p>. Facilidade de Aprendizado</p> 
+            <p>. Trabalho em Equipe</p>
+            <button id="sair">Sair</button>
+    </div>
+
+    <div class="formulario"id="areaFormulario">
+
+        <h2>Editar Perfil</h2>
+
+        <form id="formPerfil">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome"required>
+
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso"required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email"required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade"required>
+
+            <button type="submit">Salvar Perfil</button>
+
+            <button type="button"id="cancelar">
+                Cancelar
+            </button>
+
+        </form>
+
+    </div>
+    <script src="js/curriculo.js" defer></script>
+</body>
